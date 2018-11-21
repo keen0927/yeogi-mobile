@@ -1,0 +1,50 @@
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  background: #fff;
+  text-align: center;
+  h1 {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    width: 95px;
+    height: 21px;
+    margin: 0 auto;
+    background: url('https://image.goodchoice.kr/images/web_v3/h1_logo_mo.png') 0 0 no-repeat;
+    background-size: 95px auto;
+    text-indent: -9999px;
+    a {
+      display: block;
+    }
+  }
+}
+button {
+  -webkit-appearance: none;
+  border: none;
+  cursor: pointer;
+}
+.button-menu {
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  background: url('https://image.goodchoice.kr/images/web_v3/ico_menu.png') 50% 50% no-repeat;
+  background-size: 24px auto;
+  width: 40px;
+  height: 40px;
+  text-indent: -9999px;
+}
+.button-search {
+  position: absolute;
+  top: 2px;
+  right: 8px;
+  background: url('https://image.goodchoice.kr/images/web_v3/ico_srch.png') 50% 50% no-repeat;
+  background-size: 24px auto;
+  width: 40px;
+  height: 40px;
+  text-indent: -9999px;
+}
