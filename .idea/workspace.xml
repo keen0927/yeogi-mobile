@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1df2d694-2bed-4e22-a7e2-3f26d8473b81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front-end/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/pages/BookingPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/pages/ErrorPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/pages/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/pages/ProductDetailPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/pages/SearchResultPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,8 +113,16 @@
       <workItem from="1574003264848" duration="86000" />
       <workItem from="1574003503128" duration="27000" />
       <workItem from="1574003545327" duration="5000" />
-      <workItem from="1574003565421" duration="2902000" />
+      <workItem from="1574003565421" duration="2947000" />
     </task>
+    <task id="LOCAL-00001" summary="191118">
+      <created>1574006862092</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574006862092</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,5 +138,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="191118" />
+    <option name="LAST_COMMIT_MESSAGE" value="191118" />
   </component>
 </project>
