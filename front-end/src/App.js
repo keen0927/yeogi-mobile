@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Switch, Route } from 'react-router-dom';
+import loadable from "@loadable/component";
+
+// Route
+import MainPage from './pages/MainPage';
+const SearchResultPage = loadable(() => import('./pages/SearchResultPage'));
+const ProductDetailPage = loadable(() => import('./pages/ProductDetailPage'));
+const BookingPage = loadable(() => import('./pages/BookingPage'));
+const ErrorPage = loadable(() => import('./pages/ErrorPage'));
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route component={ MainPage } path="/" exact />
+        <Route component={ SearchResultPage } path="/searchResult" />
+        <Route component={ ProductDetailPage } path="/productDetail" />
+        <Route component={ BookingPage } path="/booking" />
+        <Route component={ ErrorPage } path="*" />
+      </Switch>
     </div>
   );
 }
