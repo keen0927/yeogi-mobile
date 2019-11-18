@@ -1,20 +1,42 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import client from "../lib/api/client";
 
 const MainPage = () => {
 
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    const getPosts = async() => {
+    // const getPosts = async() => {
+    //   try {
+    //     const response = await axios.get('http://localhost:3000/posts');
+    //     setData(response.data[0].title);
+    //   } catch(e) {
+    //     console.error(e);
+    //   }
+    // };
+    // getPosts();
+    const postTest = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/posts');
-        setData(response.data[0].title);
+        const postTest = await client.post('/posts',{
+          "title": "json-server2",
+          "author": "keen"
+        })
       } catch(e) {
         console.error(e);
       }
     };
-    getPosts();
+    postTest();
+
+    const getPost = async () => {
+      try {
+        const getPosts = await client.get('/posts');
+        console.log(getPosts);
+      } catch(e) {
+        console.error(e)
+      }
+    };
+
+    getPost();
   }, []);
 
   return (
