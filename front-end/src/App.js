@@ -10,8 +10,10 @@ const BookingPage = loadable(() => import('./pages/BookingPage'));
 const ErrorPage = loadable(() => import('./pages/ErrorPage'));
 
 function App() {
+
   return (
     <div className="App">
+
       <Switch>
         <Route component={ MainPage } path="/" exact />
         <Route component={ SearchResultPage } path="/searchResult" />

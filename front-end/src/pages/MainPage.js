@@ -3,27 +3,23 @@ import axios from 'axios';
 
 const MainPage = () => {
 
-  // const [data, setData] = useState([]);
+  const [data, setData] = useState(null);
 
   useEffect(() => {
     const getPosts = async() => {
       try {
         const response = await axios.get('http://localhost:3000/posts');
-        // setData(response.data);
-        return response.data[0].title;
+        setData(response.data[0].title);
       } catch(e) {
         console.error(e);
       }
     };
-    // getPosts();
-
-    // setData(getPosts());
-
+    getPosts();
   }, []);
 
   return (
       <div>
-        메인
+        DATA {data}
       </div>
   )
 };
