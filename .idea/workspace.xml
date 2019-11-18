@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1df2d694-2bed-4e22-a7e2-3f26d8473b81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/style/base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/assets/style/sass/reset/_reset.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/pages/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,23 +20,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>sassregex</find>
-      <find>getStyleLoaders</find>
-      <find>sassRegex</find>
-      <find>classna</find>
-      <find>redux</find>
-    </findStrings>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="480" />
-    <option name="y" value="23" />
-    <option name="width" value="960" />
-    <option name="height" value="830" />
   </component>
   <component name="ProjectId" id="1TkUHShkrWFgdzI64SqXlTfrlhP" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -47,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file:///Users/gim-yonghun/Desktop/studySpace/React/yeogi-mobile/src/pages/Main.js&#10;head&#9;FILE&#9;file:///Users/gim-yonghun/Desktop/studySpace/React/yeogi-mobile/src/components/Header/Header.scss&#10;Hea&#9;FILE&#9;file:///Users/gim-yonghun/Desktop/studySpace/React/yeogi-mobile/src/components/Header/Header.scss&#10;webpack.config.pro&#9;FILE&#9;file:///Users/gim-yonghun/Desktop/studySpace/React/yeogi-mobile/config/webpack.config.prod.js&#10;webpack.con&#9;FILE&#9;file:///Users/gim-yonghun/Desktop/studySpace/React/yeogi-mobile/config/webpack.config.dev.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -60,6 +60,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.webpack" />
   </component>
   <component name="RecentsManager">
@@ -86,7 +87,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="mock" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/front-end/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="mock" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/front-end/package.json" />
       <command value="run" />
@@ -97,6 +108,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.mock" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -114,6 +129,7 @@
       <workItem from="1574003503128" duration="27000" />
       <workItem from="1574003545327" duration="5000" />
       <workItem from="1574003565421" duration="2947000" />
+      <workItem from="1574050268900" duration="2361000" />
     </task>
     <task id="LOCAL-00001" summary="191118">
       <created>1574006862092</created>
@@ -133,7 +149,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
