@@ -1,12 +1,20 @@
 import axios from 'axios';
 
-const client = axios.create();
+const baseURL = (() => {
+  if (process.env.NODE_ENV === 'development') {
+    return 'http://localhost:3000/'
+  }  else {
+    return '/'
+  }
+})();
 
-// client.defaults.baseURL = 'https://external-api-server.com';
-client.defaults.baseURL = 'http://localhost:3000';
-
-client.defaults.headers.common['authorization'] = '1234';
-client.defaults.headers.common['Content-Type'] = 'application/json';
+const client = axios.create({
+  baseURL,
+  headers: {
+    'Accept': 'application/json',
+    'Content-Type': 'application/json; charset=utf-8',
+  }
+});
 
 axios.interceptors.response.use(
   response => {
