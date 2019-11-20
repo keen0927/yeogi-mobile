@@ -8,6 +8,7 @@ const SearchResultPage = loadable(() => import('./pages/SearchResultPage'));
 const ProductDetailPage = loadable(() => import('./pages/ProductDetailPage'));
 const BookingPage = loadable(() => import('./pages/BookingPage'));
 const ErrorPage = loadable(() => import('./pages/ErrorPage'));
+const Test = loadable(() => import('./pages/Test'));
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route component={ SearchResultPage } path="/searchResult" />
         <Route component={ ProductDetailPage } path="/productDetail" />
         <Route component={ BookingPage } path="/booking" />
+        <Route component={ Test } path="/test" />
         <Route component={ ErrorPage } path="*" />
       </Switch>
     </div>
