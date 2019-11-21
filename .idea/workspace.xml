@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1df2d694-2bed-4e22-a7e2-3f26d8473b81" name="Default Changelist" comment="">
+    <list default="true" id="1df2d694-2bed-4e22-a7e2-3f26d8473b81" name="Default Changelist" comment="191120">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/lib/api/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/lib/api/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +127,8 @@
       <workItem from="1574003565421" duration="2947000" />
       <workItem from="1574050268900" duration="2389000" />
       <workItem from="1574066968915" duration="1244000" />
+      <workItem from="1574346348666" duration="93000" />
+      <workItem from="1574348135874" duration="212000" />
     </task>
     <task id="LOCAL-00001" summary="191118">
       <created>1574006862092</created>
@@ -148,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574093411077</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="191119">
+      <created>1574172941785</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574172941785</updated>
+    </task>
+    <task id="LOCAL-00005" summary="191120">
+      <created>1574261557724</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574261557724</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +188,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="191118" />
-    <option name="LAST_COMMIT_MESSAGE" value="191118" />
+    <MESSAGE value="191119" />
+    <MESSAGE value="191120" />
+    <option name="LAST_COMMIT_MESSAGE" value="191120" />
   </component>
 </project>
