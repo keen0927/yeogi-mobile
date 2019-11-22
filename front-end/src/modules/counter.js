@@ -28,12 +28,14 @@ export function* counterSaga() {
   yield  takeLatest(DECREASE_ASYNC, decreaseSaga);
 }
 
-const initialState = 0;
+const initialState = {
+  count: 0
+};
 
 const counter = handleActions(
   {
-    [INCREASE]: state => state + 1,
-    [DECREASE]: state => state - 1,
+    [INCREASE]: state => state.count + 1,
+    [DECREASE]: state => state.count - 1,
   },
   initialState
 );
