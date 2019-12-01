@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './assets/style/base.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-// import { composeWithDevTools } from 'redux-devtools-extension';
+import {BrowserRouter} from "react-router-dom";
+import {Provider} from "react-redux";
+import {createStore} from "redux";
+import rootReducer from "./modules";
+import {composeWithDevTools} from "redux-devtools-extension";
+
+const store = createStore(rootReducer, composeWithDevTools());
 
 ReactDOM.render(
-  <App />,
+  <Provider store={store}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </Provider>,
   document.getElementById('root')
 );
 
