@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1df2d694-2bed-4e22-a7e2-3f26d8473b81" name="Default Changelist" comment="191120">
+    <list default="true" id="1df2d694-2bed-4e22-a7e2-3f26d8473b81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/modules/counter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/modules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/pages/Test.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,7 @@
     <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file:///Users/gim-yonghun/Desktop/studySpace/React/yeogi-mobile/src/pages/Main.js&#10;head&#9;FILE&#9;file:///Users/gim-yonghun/Desktop/studySpace/React/yeogi-mobile/src/components/Header/Header.scss&#10;Hea&#9;FILE&#9;file:///Users/gim-yonghun/Desktop/studySpace/React/yeogi-mobile/src/components/Header/Header.scss&#10;webpack.config.pro&#9;FILE&#9;file:///Users/gim-yonghun/Desktop/studySpace/React/yeogi-mobile/config/webpack.config.prod.js&#10;webpack.con&#9;FILE&#9;file:///Users/gim-yonghun/Desktop/studySpace/React/yeogi-mobile/config/webpack.config.dev.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/front-end/src/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -128,7 +130,10 @@
       <workItem from="1574050268900" duration="2389000" />
       <workItem from="1574066968915" duration="1244000" />
       <workItem from="1574346348666" duration="93000" />
-      <workItem from="1574348135874" duration="212000" />
+      <workItem from="1574348135874" duration="5783000" />
+      <workItem from="1574437528993" duration="506000" />
+      <workItem from="1575211283046" duration="51000" />
+      <workItem from="1575211706832" duration="196000" />
     </task>
     <task id="LOCAL-00001" summary="191118">
       <created>1574006862092</created>
@@ -165,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574261557724</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="191121">
+      <created>1574348368222</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574348368223</updated>
+    </task>
+    <task id="LOCAL-00007" summary="191122">
+      <created>1574434590649</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574434590649</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +209,8 @@
     <MESSAGE value="191118" />
     <MESSAGE value="191119" />
     <MESSAGE value="191120" />
-    <option name="LAST_COMMIT_MESSAGE" value="191120" />
+    <MESSAGE value="191121" />
+    <MESSAGE value="191122" />
+    <option name="LAST_COMMIT_MESSAGE" value="191122" />
   </component>
 </project>
