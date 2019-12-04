@@ -25,7 +25,7 @@ const Footer = styled.div`
   font-size: 12px;
   color: rgba(0,0,0,0.4);
   text-align:center;  
-`
+`;
 
 const textMap = {
   login: '로그인',
